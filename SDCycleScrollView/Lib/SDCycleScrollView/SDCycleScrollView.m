@@ -148,6 +148,8 @@ NSString * const ID = @"SDCycleScrollViewCell";
     mainView.scrollsToTop = NO;
     [self addSubview:mainView];
     _mainView = mainView;
+    
+    self.mainCollectionView = mainView;
 }
 
 

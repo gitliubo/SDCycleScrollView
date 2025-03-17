@@ -196,6 +196,8 @@ typedef enum {
 /** 轮播文字label对齐方式 */
 @property (nonatomic, assign) NSTextAlignment titleLabelTextAlignment;
 
+@property (nonatomic, strong) UICollectionView *mainCollectionView;
+
 /** 滚动手势禁用（文字轮播较实用） */
 - (void)disableScrollGesture;
 
@@ -207,5 +209,7 @@ typedef enum {
 
 /** 清除图片缓存（兼容旧版本方法） */
 - (void)clearCache;
+
+
 
 @end
